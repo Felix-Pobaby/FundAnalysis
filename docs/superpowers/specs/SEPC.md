@@ -6,6 +6,13 @@
 
 ## 评审记录
 
+评审意见收集自5个角色的专家评审，涵盖数据工程、金融领域、产品管理、技术架构和用户体验设计。意见文档链接如下：
+- [数据工程师评审意见](reviews/DataEngineer.md)
+- [金融领域专家评审意见](reviews/FinanceDomainExpert.md)
+- [产品经理评审意见](reviews/ProductManager.md)
+- [技术架构师评审意见](reviews/TechnicalArchitect.md)
+- [UX设计师评审意见](reviews/UXDesigner.md)
+
 基于5个角色的评审意见，本次修订采用 **MVP先行** 策略。以下为决策记录：
 
 | 评审建议 | 决策 | 理由 |
