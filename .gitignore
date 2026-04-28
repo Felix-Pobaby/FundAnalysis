@@ -4,3 +4,30 @@ tmp/
 __pycache__/
 *.pyc
 .superpowers/
+
+# Python
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Streamlit
+.streamlit/
+
+# DuckDB
+*.duckdb
+*.db.wal
+
+# Playwright
+.playwright/

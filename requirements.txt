@@ -1,0 +1,10 @@
+streamlit==1.56.0
+plotly==6.7.0
+jinja2==3.1.6
+playwright==1.58.0
+duckdb==1.5.2
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+python-dotenv==1.2.2
+pytest==9.0.3
