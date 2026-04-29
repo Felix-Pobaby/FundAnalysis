@@ -62,10 +62,10 @@ def main_THS():
     """同花顺 API 连接测试入口。"""
     print("=== 同花顺 API 连通性验证 ===")
     THS_iFinDLogin(settings.ths_api_username, settings.ths_api_password)
-    a = THS_RQ("300033.SH", "latest")
+    a = THS_RQ('920000.BJ','open')
     print(a)
     print(a.data)
 
 if __name__ == "__main__":
-    success = main_logic()
+    success = main_THS()
     sys.exit(0 if success else 1)
