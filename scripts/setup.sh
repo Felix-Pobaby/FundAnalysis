@@ -35,7 +35,7 @@ fi
 # 3. 激活并安装依赖
 echo "3/3 安装依赖..."
 source .venv/bin/activate
-pip install -q -r requirements.txt
+pip install -r requirements.txt
 echo "  [OK] 依赖安装完成"
 
 # 验证安装

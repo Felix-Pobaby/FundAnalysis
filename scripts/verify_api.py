@@ -5,6 +5,7 @@
 """
 import sys
 from pathlib import Path
+from iFinDPy import *  # noqa: F401, F403
 
 # 将项目根目录加入 sys.path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
@@ -56,6 +57,14 @@ def main_logic():
         print(f"[FAIL] 未知错误: {type(e).__name__}: {e}")
         return False
 
+
+def main_THS():
+    """同花顺 API 连接测试入口。"""
+    print("=== 同花顺 API 连通性验证 ===")
+    THS_iFinDLogin(settings.ths_api_username, settings.ths_api_password)
+    a = THS_RQ("300033.SH", "latest")
+    print(a)
+    print(a.data)
 
 if __name__ == "__main__":
     success = main_logic()
